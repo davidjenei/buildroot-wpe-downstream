@@ -1,0 +1,5 @@
+# Include all package configuration snippets from the overlay.
+source "$BR2_EXTERNAL_WPE_PATH/package/wpebackend-rdk/Config.in"
+source "$BR2_EXTERNAL_WPE_PATH/package/wpebackend/Config.in"
+source "$BR2_EXTERNAL_WPE_PATH/package/wpewebkit/Config.in"
+source "$BR2_EXTERNAL_WPE_PATH/package/wpelauncher/Config.in"
